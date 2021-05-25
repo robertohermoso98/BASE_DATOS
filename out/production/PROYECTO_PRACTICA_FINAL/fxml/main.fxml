@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <BorderPane fx:id="IDBoreder" layoutX="-3.0" layoutY="-2.0" maxHeight="9999999.0" maxWidth="99999.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1300.0">
+         <top>
+            <MenuBar BorderPane.alignment="CENTER">
+               <menus>
+                  <Menu mnemonicParsing="false" text="Tablas">
+                     <items>
+                        <Menu mnemonicParsing="false" text="Insert">
+                          <items>
+                              <MenuItem mnemonicParsing="false" onAction="#insertCerveza" text="InsertCerveza" />
+                              <MenuItem mnemonicParsing="false" onAction="#insertMosto" text="InsertMostoSinFermentar" />
+                            <MenuItem mnemonicParsing="false" onAction="#insertLiquido" text="InsertLiquidoFrio" />
+                          </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Delete">
+                           <items>
+                              <MenuItem mnemonicParsing="false" onAction="#deleteCerveza" text="DeleteCerveza" />
+                              <MenuItem mnemonicParsing="false" onAction="#deleteMosto" text="DeleteMostoSinFermentar" />
+                              <MenuItem mnemonicParsing="false" onAction="#deleteLiquido" text="DeleteLiquidoFrio" />
+                           </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Modify">
+                           <items>
+                              <MenuItem mnemonicParsing="false" onAction="#modifyCerveza" text="ModifyCerveza" />
+                              <MenuItem mnemonicParsing="false" onAction="#modifyMosto" text="ModifyMostoSinFermentar" />
+                              <MenuItem mnemonicParsing="false" onAction="#modifyLiquido" text="ModifyLiquidoFrio" />
+                           </items>
+                        </Menu>
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Sentencias SQL">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#MostrarSentencia1" text="Sentencia 1" />
+                        <MenuItem mnemonicParsing="false" onAction="#MostrarSentencia2" text="Sentencia 2" />
+                        <MenuItem mnemonicParsing="false" onAction="#MostrarSentencia3" text="Sentencia 3" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Help">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+         </top>
+         <center>
+            <TableView fx:id="table" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
+         <left>
+            <VBox prefHeight="474.0" prefWidth="135.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Hyperlink onAction="#mostrarAgua" text="Agua" textFill="#030303" />
+                  <Hyperlink onAction="#mostrarAguaMin" text="Agua mineral" textFill="#030303" />
+                  <Hyperlink onAction="#mostrarMalta" text="Malta" textFill="#030303" />
+                  <Hyperlink onAction="#mostrarPaises" text="Paises" textFill="#030303" />
+                  <Hyperlink onAction="#mostrarLupulo" text="Lupulo" textFill="#030303" />
+                  <Hyperlink onAction="#mostrarMateriales" text="Materiales" textFill="#030303" />
+                  <Hyperlink onAction="#mostrarLevadura" text="Levadura" textFill="#030303" />
+                  <Hyperlink onAction="#mostrarMaltaMolida" text="Malta molida" textFill="#030303" />
+                  <Hyperlink onAction="#mostrarMosto" text="Mosto" textFill="#030303" />
+                  <Hyperlink onAction="#mostrarLiquidoDulce" text="Liquido dulce" textFill="#030303" />
+                  <Hyperlink onAction="#mostrarLiquidoFrio" text="Liquido frio" textFill="#030303" />
+                  <Hyperlink onAction="#mostrarMostoSinF" text="Mosto sin fermentar" textFill="#030303" />
+                  <Hyperlink onAction="#mostrarCerveza" text="Cerveza" textFill="#030303" />
+                  <Hyperlink onAction="#mostrarCervezaEnCab" text="Cerveza en Cab" textFill="#030303" />
+                  <Hyperlink onAction="#mostrarCervezaEnLin" text="Cerveza en Lin" textFill="#030303" />
+               </children>
+            </VBox>
+         </left>
+         <bottom>
+            <Separator prefHeight="4.0" prefWidth="905.0" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

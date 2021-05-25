@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <bottom>
+      <HBox prefHeight="57.0" prefWidth="471.0" BorderPane.alignment="CENTER">
+         <children>
+            <Separator prefHeight="15.0" prefWidth="193.0" visible="false" />
+            <Button mnemonicParsing="false" onAction="#aceptar" prefHeight="34.0" prefWidth="71.0" text="Aceptar" />
+            <Separator prefHeight="18.0" prefWidth="31.0" visible="false" />
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <GridPane prefHeight="223.0" prefWidth="456.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="257.0" minWidth="93.0" prefWidth="133.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="188.0" minWidth="84.0" prefWidth="115.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="cer_año">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="cer_numero_sec" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="cer_id_material4" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="cer_id_material3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="cer_id_levadura" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="cer_id_material2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="cer_id_agua" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="cer_id_material" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="cer_id_malta" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="cer_id_material1" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="cer_id_lupulo" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label prefHeight="21.0" prefWidth="202.0" text="cer_id_tiempo_trasvase" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField fx:id="cer_numero_sec" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="5.0" top="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="cer_id_material" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="5.0" top="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="cer_id_material3" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="5.0" top="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="cer_id_levadura" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="5.0" top="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="cer_id_material2" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="5.0" top="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="cer_id_agua" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="5.0" top="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="cer_id_material1" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="5.0" top="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="cer_id_lupulo" GridPane.columnIndex="1" GridPane.rowIndex="10">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="5.0" top="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="cer_id_malta" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="5.0" top="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="cer_año" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="5.0" top="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="cer_id_material4" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="5.0" top="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="cer_id_tiempo_trasvase" GridPane.columnIndex="1" GridPane.rowIndex="11">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="5.0" top="10.0" />
+               </GridPane.margin>
+            </TextField>
+         </children>
+      </GridPane>
+   </center>
+   <top>
+      <HBox prefHeight="25.0" prefWidth="471.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="idScena" text="Insertar Cervezas">
+               <font>
+                  <Font name="Ubuntu Bold" size="19.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>
